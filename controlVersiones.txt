@@ -1,0 +1,47 @@
+Nombre de repositorio
+
+	controlVersiones
+
+Descripción
+	
+	Muestra como funciona el control de versiones con el comando git
+
+IPv4 del repositorio
+
+	https://github.com/JBA-intencional-4/controlVersiones.git
+
+Creación de contenidos
+
+echo "# controlVersiones" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JBA-intencional-4/controlVersiones.git
+git push -u origin main
+
+Actualización de contenidos
+
+git add .
+o bien
+git namefile.ext
+o bien que es igual al primero
+git add -A
+
+git commit -m "actualizo repositorio"
+
+git push -u origin main		//realieza el enlace entre local y remoto
+
+Comandos para gestionar versiones
+
+git log --online      //visualiza directorio con fecha
+git checkout "id"
+git checkoutmaster
+
+
+
+
+
+
+
+
